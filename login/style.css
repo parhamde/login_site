@@ -1,0 +1,190 @@
+body{
+    background-color: rgb(198, 197, 197);
+}
+@font-face {
+    font-family:yekan ;
+    src: url(./Yekan.ttf);
+}
+*{
+    font-family: yekan;
+}
+
+.pa4{
+    box-shadow: -10px 10px 10px  rgba(127, 255, 212, 0.461);
+    background-color: aquamarine;
+    width: 430px;
+    margin: auto;
+    border: 10px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+
+
+
+.all{
+    box-shadow: -10px 10px 10px rgba(240, 248, 255, 0.284);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    background-color: rgb(255, 240, 253);
+    height: 370px;
+    border-radius: 50px;
+    position: relative;
+    box-shadow: -20px 10px 10px rgba(255, 240, 253, 0.59);
+}
+.number{
+    direction: ltr;
+    margin: 20px;
+    position: relative;
+    top: 82px;
+    left: 20px;
+}
+.input{
+    
+    background-color: rgba(0, 253, 139, 0);
+    width: 300px;
+    border-bottom: 10px;
+    padding: 5px;
+    margin: 10px;
+    outline: none;
+    border-bottom: 2px black solid;
+    border: solid 2px rgba(255, 0, 0, 0);
+    
+    align-items:center;
+}
+.a78 button{
+    width: 100px;
+    padding: 5px;
+    outline: none;
+    border-radius: 10px;
+    border: 2px solid rgb(238, 0, 255)  ;
+    background-color: #f0f8ff13;
+    position: absolute;
+    top: 190px;
+    right: 180px;
+}
+.show{
+    display: flex;
+    position: absolute;
+    top: 180px;
+    
+}
+.as2{
+    display: flex;
+    width: 200px;
+    position: absolute;
+    left: -80px;
+    bottom: 130px;
+    background-color: rgb(235, 246, 255);
+    border-radius: 50%;
+    box-shadow: -14px 10px 10px rgba(240, 248, 255, 0.284);
+    
+}
+.ff3{
+    width: 50px;
+    height: 50px;
+    top: -20px;
+    right: -10px;
+    display: flex;
+    position: absolute;
+}
+.ps{
+    margin-right: 100px;
+}
+.butto  {
+    display: flex;
+    background-color: rgba(240, 248, 255, 0);
+    border: rgb(238, 0, 255) solid 2px ;
+    border-radius: 10px;
+    position: absolute;
+    top: 300px;
+    right: 20px;
+   
+}
+.butto a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    
+   
+}
+
+.all .ee a{
+    text-decoration: none;
+    color: rgb(129, 192, 248);
+}
+.a4 a{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+}
+@media only screen and (max-width : 425px){
+    .a78{
+        position: relative;
+        bottom: 275px;
+        left: 40px;
+    }
+    .all {
+      background-color: aliceblue;
+      color: rgb(2, 1, 1);
+      width: 90%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      height: auto;
+    }
+    .ps{
+        width: 100%;
+        margin: auto;
+    }
+    .pa4{
+        width: 90%;
+    }
+    .as2{
+        width: 40%;
+        position: absolute;
+        right: 210px;
+        top: 40px;
+        
+    }
+    .tt2{
+         position: relative;
+         top: 10px;
+         right: 20px;
+         margin-bottom: 40px;
+    }
+    .y5{
+        position: relative;
+        top: 42px;
+    }
+    .input{
+        position: relative;
+        right: 20px;
+    }
+    .butto{
+        display: flex;
+        position: relative;
+        top: 10px;
+        right: -10px;
+        
+    }
+    .show{
+        position: absolute;
+        top: 200px;
+        right: 10px;
+    }
+    .ff3{
+        display: none;
+        
+    }
+    .number{
+        position: relative;
+        top: 20px;
+        right: 30px;
+    }
+    
+}
